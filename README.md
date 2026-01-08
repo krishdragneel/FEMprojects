@@ -1,60 +1,57 @@
-🔧 Multi-Physics Analysis of Globe Valve
+🔧 MULTI-PHYSICS ANALYSIS OF GLOBE VALVE
 📊 Comparative Study: Stainless Steel vs. Brass vs. Bronze
 
+⚙️ ANSYS • 📐 Finite Element Analysis • 🌐 Multi-Physics Simulation
 
+📌 PROJECT OVERVIEW
 
+This project presents a Finite Element Analysis (FEA)–based multi-physics study of a globe valve. The objective is to compare the 🏗️ structural, 🔊 vibrational, and 🌡️ thermal performance of different materials under realistic operating conditions relevant to industrial valve applications.
 
+🧪 Materials analyzed in this study:
+• 🧱 Stainless Steel
+• 🟡 Brass
+• 🟤 Bronze
 
+🧠 ANALYSES PERFORMED
 
+🔊 MODAL ANALYSIS
 
+Natural frequency and mode shape analysis was performed to evaluate vibration characteristics and resonance safety in mechanically excited environments.
 
-📌 Project Overview
+🏗️ STATIC STRUCTURAL ANALYSIS
 
-This repository presents a Finite Element Analysis (FEA)–based multi-physics study of a globe valve. The objective is to evaluate and compare the structural, vibrational, and thermal performance of three materials under realistic operating conditions.
+The globe valve was subjected to an internal pressure of 10 MPa and an external mechanical load of 500 N. Von-Mises stress and safety factor were used to assess structural integrity.
 
-🧪 Materials Studied
+🌡️ THERMAL ANALYSIS
 
-🧱 Stainless Steel
+A steady-state thermal analysis was conducted for temperatures ranging from −35 °C to 450 °C to study heat flux and temperature distribution across the valve body.
 
-🟡 Brass
+📈 KEY RESULTS
 
-🟤 Bronze
+🔊 Vibration Resistance: Stainless Steel showed the highest natural frequency and best resistance to resonance.
 
-🧠 Analyses Performed
-🔊 Modal Analysis
+🏗️ Structural Safety: Bronze exhibited the highest safety factor under pressure loading.
 
-Evaluated natural frequencies and mode shapes
+🌡️ Heat Dissipation: Bronze demonstrated superior thermal conductivity.
 
-Focused on resonance avoidance in vibration-prone environments
+❄️ Thermal Insulation: Stainless Steel retained heat effectively due to low thermal conductivity.
 
-🏗️ Static Structural Analysis
+✅ FINAL RECOMMENDATION
 
-Applied 10 MPa internal pressure
+🏗️ Structural safety → Bronze
 
-Applied 500 N mechanical load
-
-Evaluated Von-Mises stress and safety factor
-
-🌡️ Thermal Analysis
-
-Temperature range: −35 °C to 450 °C
-
-Studied heat flux and temperature distribution
-
-📈 Key Results
-🧪 Criteria	🥇 Best Material	📌 Observation
-🔊 Vibration Resistance	Stainless Steel	Highest natural frequency
-🏗️ Structural Safety	Bronze	Highest safety factor
-🌡️ Heat Dissipation	Bronze	Highest thermal conductivity
-❄️ Thermal Insulation	Stainless Steel	Lowest heat flux
-✅ Final Recommendation
-
-🏗️ Structural safety: Bronze
-
-🔊 Vibration-critical applications: Stainless Steel
+🔊 Vibration-critical applications → Stainless Steel
 
 🌡️ Thermal applications:
+• 🔥 Heat dissipation → Bronze
+• ❄️ Heat retention → Stainless Steel
 
-🔥 Cooling required: Bronze
+🧾 DOCUMENTATION
 
-❄️ Heat retention required: Stainless Steel
+📄 A detailed PDF report containing the full methodology, numerical results, tables, and conclusions is included in this repository.
+
+🛠️ TOOLS AND SOFTWARE
+
+• ⚙️ ANSYS Workbench
+• 📐 Finite Element Method (FEM)
+• 📊 Modal, Structural, and Thermal Solvers
